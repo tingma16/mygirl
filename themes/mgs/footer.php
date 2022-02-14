@@ -13,16 +13,9 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'mgs' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'mgs' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'mgs' ), 'mgs', '<a href="https://isummer.com">Ting Ma</a>' );
+			<?php
+				/* translators: 1: Copyright, 2: Site. */
+				printf( esc_html__( 'Copyright %1$s by %2$s.', 'mgs' ), '2022', '<a href="'. home_url() .'">My Gril</a>' );
 				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
