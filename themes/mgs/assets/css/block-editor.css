@@ -1,9 +1,12 @@
+/* style text */
 .wp-block-quote{
     color:blue;
 }
 .wp-block-quote.is-style-fancy-quote{
    color:rgb(255, 157, 11); 
 }
+
+/* style media widths */
 .entry-content > * {
     max-width: 1000px;
     margin-left:auto;
@@ -16,15 +19,26 @@
 .alignfull{
     max-width:100%;
 }
-.block-editor-rich-text__editable{
-    color:#fff;
+
+/* style design */
+.wp-block-image:not(.is-style-rounded) {
+    border-radius: 5rem;
+    border: 5px solid orange;
 }
 
+/* style widgets */
 p-block-calendar table caption, .wp-block-calendar table tbody {
     color: #FFA500;
 }
 .wp-block-calendar table th {
-    font-weight: 400;
+    
     background: #FFA500;
     color: #FFF;
+}
+
+/* style theme */
+time{
+    color:grey;
+    text-align: right;
+    margin-left:80%;
 }
