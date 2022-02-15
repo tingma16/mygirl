@@ -1,0 +1,30 @@
+.wp-block-quote{
+    color:blue;
+}
+.wp-block-quote.is-style-fancy-quote{
+   color:rgb(255, 157, 11); 
+}
+.entry-content > * {
+    max-width: 1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.alignwide{
+    max-width:1200px;
+}
+.alignfull{
+    max-width:100%;
+}
+.block-editor-rich-text__editable{
+    color:#fff;
+}
+
+p-block-calendar table caption, .wp-block-calendar table tbody {
+    color: #FFA500;
+}
+.wp-block-calendar table th {
+    font-weight: 400;
+    background: #FFA500;
+    color: #FFF;
+}
