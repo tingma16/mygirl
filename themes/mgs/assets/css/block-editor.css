@@ -21,13 +21,17 @@
 }
 
 /* style design */
-.wp-block-image:not(.is-style-rounded) {
+.wp-block-image.is-resized img{
     border-radius: 5rem;
     border: 5px solid orange;
+   
 }
 
+
+
+
 /* style widgets */
-p-block-calendar table caption, .wp-block-calendar table tbody {
+.wp-block-calendar table caption, .wp-block-calendar table tbody {
     color: #FFA500;
 }
 .wp-block-calendar table th {
