@@ -12,6 +12,7 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
+		
 		<div class="site-footer-extra">
 			<div class="quick-link">
 				<p>Quick Link</p>
@@ -26,8 +27,11 @@
 			<div class="subscribe">
 				<h3>Subscribe to our newsletter!</h3>
 				<input type="text">
-				<button type="button">Subscribe</button>
-
+				<div class="subscribeBtn">
+					<button type="button">Subscribe</button>
+					<?php mgs_social_media_menu(); ?>
+				</div>
+				
 			</div>
 			<div class="contac-link">
 					<p>Contact</p>
