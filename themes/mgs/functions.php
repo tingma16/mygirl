@@ -50,6 +50,10 @@ function mgs_setup() {
 	register_nav_menus(
 		array(
 			'menu-primary' => esc_html__( 'Primary', 'mgs' ),
+			'menu-secondary' => esc_html__( 'Secondary', 'mgs' ),
+			'menu-footer' => esc_html__( 'Footer', 'mgs' ),
+			'menu-social' => esc_html__( 'Social', 'mgs' ),
+
 		)
 	);
 
