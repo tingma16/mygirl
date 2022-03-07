@@ -53,6 +53,7 @@
 					array(
 						'theme_location' => 'menu-primary',
 						'menu_id'        => 'primary-menu',
+						'container'      => false,
 					)
 				);
 			}
