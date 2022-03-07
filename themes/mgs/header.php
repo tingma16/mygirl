@@ -89,6 +89,20 @@
 					</a>
 				</li>
 				<?php } ?>
+
+				<?php if( ! empty (get_theme_mod ( 'mgs_twitter_url' ) ) && ! empty (get_theme_mod ( 'mgs_twitter_title' ) ) ) { ?>
+				<li>
+					<a href="<?php echo esc_url( get_theme_mod('mgs_twitter_url' ) );?>" aria-label="<?php echo ! empty (get_theme_mod( 'mgs_twitter_icon' ) ) ?  get_theme_mod('mgs_twitter_title' ) :''; ?>">
+						<?php 
+						if ( ! empty (get_theme_mod( 'mgs_twitter_icon' ) ) ) {
+							echo wp_get_attachment_image( get_theme_mod( 'mgs_twitter_icon' ), array('30','30') );
+						}else{
+						echo get_theme_mod('mgs_twitter_title' );
+						}
+						?>
+					</a>
+				</li>
+				<?php } ?>
 			</ul>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
