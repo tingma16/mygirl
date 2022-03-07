@@ -119,3 +119,6 @@ h1, .site-title, .site-description{
 .wp-block-button__link{
     margin-left:50rem;
 }
+.social-media-menu{
+    list-style: none;
+}
