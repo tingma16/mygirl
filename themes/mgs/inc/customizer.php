@@ -34,6 +34,14 @@ function mgs_customize_register( $wp_customize ) {
 	$wp_customize->add_section( 'mgs_social_media', array(
 		'title' => esc_html__( 'Social_media', 'mgs' ),
 	) );
+	$wp_customize->add_setting( 'mgs_facebook_title' );
+
+	$wp_customize->add_control( 'mgs_facebook_title', array(
+		'label' => 'Facebook Title',
+		'description'=>'Enter your Link title',
+		'section' => 'mgs_social_media',
+	));
+
 
 	$wp_customize->add_setting( 'mgs_facebook_url' );
 
