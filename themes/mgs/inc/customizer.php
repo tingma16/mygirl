@@ -46,12 +46,14 @@ function mgs_customize_register( $wp_customize ) {
 
 	$wp_customize->add_setting( 'mgs_twitter_url' );
 
-	$wp_customize->add_control( 'mgs_twitter__url', array(
-		'label' => 'Twitter_ URL',
-		'description'=>'Enter your Twitter_ profile',
+	$wp_customize->add_control( 'mgs_twitter_url', array(
+		'label' => 'Twitter URL',
+		'description'=>'Enter your Twitter profile',
 		'type' => 'url',
 		'section' => 'mgs_social_media',
 	));
+
+	
 }
 add_action( 'customize_register', 'mgs_customize_register' );
 
