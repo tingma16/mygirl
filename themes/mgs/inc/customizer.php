@@ -58,6 +58,12 @@ function mgs_customize_register( $wp_customize ) {
 		'section' => 'mgs_facebook',
 	));
 
+	$wp_customize->add_setting( 'mgs_facebook_icon' );
+	$wp_customize->add_control( new WP_Customize_Media_Control( $wp_customize, 'mgs_facebook_icon', array(
+		'label' => 'Icon',
+		'section' => 'mgs_facebook',
+	) ) );
+
 	$wp_customize->add_section( 'mgs_twitter', array(
 		'title' => esc_html__( 'Twitter', 'mgs' ),
 		'panel' => 'mgs_social_media',
@@ -71,6 +77,11 @@ function mgs_customize_register( $wp_customize ) {
 		'type' => 'url',
 		'section' => 'mgs_twitter',
 	));
+	$wp_customize->add_setting( 'mgs_twitter_icon' );
+	$wp_customize->add_control( new WP_Customize_Media_Control( $wp_customize, 'mgs_twitter_icon', array(
+		'label' => 'Icon',
+		'section' => 'mgs_twitter',
+	) ) );
 
 	
 }
