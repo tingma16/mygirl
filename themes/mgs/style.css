@@ -121,4 +121,13 @@ h1, .site-title, .site-description{
 }
 .social-media-menu{
     list-style: none;
+    display: flex;
+   
+    
+}
+.social-media-menu a:hover{
+    list-style: none;
+    display: flex;
+    border-bottom: none;
+    
 }
