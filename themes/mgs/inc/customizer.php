@@ -77,6 +77,14 @@ function mgs_customize_register( $wp_customize ) {
 		'panel' => 'mgs_social_media',
 	) );
 
+	$wp_customize->add_setting( 'mgs_twitter_title' );
+
+	$wp_customize->add_control( 'mgs_twitter_title', array(
+		'label' => 'Title',
+		'description'=>'Enter your Link title',
+		'section' => 'mgs_twitter',
+	));
+
 	$wp_customize->add_setting( 'mgs_twitter_url' );
 
 	$wp_customize->add_control( 'mgs_twitter_url', array(
