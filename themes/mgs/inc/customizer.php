@@ -39,6 +39,7 @@ function mgs_customize_register( $wp_customize ) {
 
 	$wp_customize->add_control( 'mgs_facebook_url', array(
 		'label' => 'Facebook URL',
+		'description'=>'Enter your Facebook profile',
 		'type' => 'url',
 		'section' => 'mgs_social_media',
 	));
