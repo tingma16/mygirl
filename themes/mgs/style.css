@@ -50,9 +50,9 @@ header{
 }
 #primary-menu ul{
     list-style: none;
-    display: flex;
-    margin-left:6rem;
-    text-align: right;
+   
+    
+    
     
 }
 .menu li a{
@@ -133,4 +133,13 @@ h1, .site-title, .site-description{
 }
 .subscribeBtn{
     display: flex;
+}
+.footer-menu{
+    list-style:circle;
+    
+}
+.quick-link .menu{
+    flex-direction: column !important;
+    width: auto !important;
+   
 }

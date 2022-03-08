@@ -17,11 +17,19 @@
 			<div class="quick-link">
 				<p>Quick Link</p>
 				<ul>
-					<li>Home</li>
-					<li>About</li>
-					<li>Shop</li>
-					<li>Blog</li>
-					<li>Contact</li>
+					<li>
+					<?php
+						if( has_nav_menu('menu-primary')){
+							wp_nav_menu(
+								array(
+									'theme_location' => 'menu-primary',
+									'menu_id'        => 'primary-menu',
+									'container'      => false,
+								)
+							);
+						}
+						?>	
+					</li>
 				</ul>
 			</div>
 			<div class="subscribe">
