@@ -33,12 +33,13 @@
 				</ul>
 			</div>
 			<div class="subscribe">
-				<h3>Subscribe to our newsletter!</h3>
+				<!-- <h3>Subscribe to our newsletter!</h3>
 				<input type="text">
 				<div class="subscribeBtn">
 					<button type="button">Subscribe</button>
 					<?php mgs_social_media_menu(); ?>
-				</div>
+				</div> -->
+				<?php mgs_social_media_menu(); ?>
 				
 			</div>
 			<div class="contac-link">

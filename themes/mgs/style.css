@@ -85,9 +85,7 @@ h1, .site-title, .site-description{
     color:white;
     
 }
-.site-footer{
-    
-}
+
 .site-footer-extra{
     display:flex;
     justify-content: space-around;
@@ -143,6 +141,11 @@ h1, .site-title, .site-description{
     width: auto !important;
    
 }
+.quick-link .menu li{
+    margin-top:-0.9rem;
+    font-size:small;
+   
+}
 #comments{
     display: none;
 }
@@ -155,3 +158,18 @@ h1, .site-title, .site-description{
     color:white;
 }
 
+.subscribe{
+    transform: scale(2);
+    margin-top:6rem;
+    
+}
+.entry-content{
+    margin:0 3rem;
+}
+.woocommerce-loop-product__title{
+    color:black;
+}
+ins, bdi{   
+    font-size:1.3rem;
+    font-weight: bold;
+}

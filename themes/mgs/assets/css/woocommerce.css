@@ -15,6 +15,7 @@ button.single_add_to_cart_button.button.alt{
 a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart{
     background-color:#ff8f27;
     color:#fff;
+    width:300px;
 }
 a.checkout-button.button.alt.wc-forward{
     background-color:#ff8f27;
@@ -22,6 +23,28 @@ a.checkout-button.button.alt.wc-forward{
 
 }
 button#place_order.button.alt{
+    background-color:#ff8f27;
+    color:#fff;
+}
+.site-main, .woocommerce-info, .checkout.woocommerce-checkout{
+    margin:0 5rem;
+}
+.woocommerce-MyAccount-navigation ul{
+    margin-bottom: 3rem;
+}
+.woocommerce-MyAccount-navigation ul li{
+    margin:1rem;
+    
+}
+.woocommerce-MyAccount-navigation ul li a{
+    color:black;
+}
+button#wsf-1-field-7.wsf-button.wsf-button-full.wsf-button-primary{
+    background-color:#ff8f27;
+    color:#fff;
+    border: none;
+}
+button.woocommerce-Button.button, button.woocommerce-button.button.woocommerce-form-login__submit{
     background-color:#ff8f27;
     color:#fff;
 }
