@@ -8,3 +8,20 @@
     max-width:500px;
 } */
 
+button.single_add_to_cart_button.button.alt{
+    background-color:#ff8f27;
+    color:#fff;
+}
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart{
+    background-color:#ff8f27;
+    color:#fff;
+}
+a.checkout-button.button.alt.wc-forward{
+    background-color:#ff8f27;
+    color:#fff;
+
+}
+button#place_order.button.alt{
+    background-color:#ff8f27;
+    color:#fff;
+}
