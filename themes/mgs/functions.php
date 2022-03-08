@@ -154,6 +154,11 @@ function mgs_scripts() {
 		true
 	);
 
+	wp_enqueue_style( 
+		'woocomerce-style', 
+		get_template_directory_uri() . '/assets/css/woocommerce.css', 
+	);
+	
 	wp_enqueue_script( 
 		'foundation-script',
 		get_template_directory_uri() . '/assets/js/vendor/foundation.min.js', 
