@@ -143,3 +143,15 @@ h1, .site-title, .site-description{
     width: auto !important;
    
 }
+#comments{
+    display: none;
+}
+.entry-footer{
+    display: none;
+}
+.button{
+    background-color: #ffa300;
+    
+    color:white;
+}
+
